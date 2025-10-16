@@ -1,0 +1,38 @@
+<!-- search-input selector: country-search-input -->
+<section class="flex flex-grow gap-2 mt-2">
+  <input 
+    type="text"
+    class="input input-bordered mr-2 w-56"
+    placeholder="Buscar por capital"
+    autofocus
+    #txtSeach
+    (keyup.enter)="onSearch(txtSeach.value)"
+  >
+  <button 
+    class="btn btn-primary"
+    (click)="onSearch(txtSeach.value)"
+  >
+    Buscar
+  </button>
+</section>
+
+<!-- country-list -->
+<section class="mt-5">
+  <table class="table table-md mt-2 w-full">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Icono</th>
+        <th>Bandera</th>
+        <th>Nombre</th>
+        <th>Capital</th>
+        <th>Población</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
