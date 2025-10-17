@@ -3,9 +3,8 @@ import { SearchInputComponent } from "../../components/search-input/search-input
 import { CountryListComponent } from "../../components/country-list/country-list.component";
 
 @Component({
-  selector: 'app-bycapital-page',
+  selector: 'app-bycountry-page',
   imports: [SearchInputComponent, CountryListComponent],
-  templateUrl: './bycapital-page.component.html',
+  templateUrl: './bycountry-page.component.html',
 })
-export class BycapitalPageComponent { }
-  
+export class BycountryPageComponent { }
